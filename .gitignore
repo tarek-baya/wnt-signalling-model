@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Simulation output
+checkpoints/
+vtkOutput_*/
+plots_*/
+experiment_record_*.txt
+
+# SLURM / logs
+slurm-*.out
+slurm-*.err
+*.log
+
+# Temporary files
+*.tmp
+*.bak
